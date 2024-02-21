@@ -1,0 +1,88 @@
+/* Убираем отступы по умолчанию */
+.custom-text-field .MuiFormHelperText-contained {
+    margin-left: 0px;
+}
+
+/* Переопределяем цвета библиотеки */
+.Mui-disabled {
+    color: #DCDCDC !important;
+}
+
+.Mui-error {
+    color: #E31227 !important;
+}
+
+.custom-text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #148F2A; /* изменить цвет рамки при фокусе */
+}
+
+.MuiInput-underline.Mui-focused:after {
+    border-color: #148F2A; /* Зеленый цвет при фокусе */
+}
+
+/* Выставляем размеры по макету */
+.custom-text-field .MuiFormHelperText-root {
+    lineHeight: 16px;
+    color: #4E4E4E;
+    padding: 0px 8px;
+}
+
+.MuiInput-root, .MuiInput-outlined {
+    padding: 8px 8px 8px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.custom-text-field .MuiOutlinedInput-root {
+    border-radius: 8px;
+    border: #262626 1px;
+}
+
+.custom-text-field {
+    color: #262626;
+    position: relative;
+}
+
+/* Цвета для счётчика */
+.custom-text-field .adornment,
+.custom-text-field .error-adornment,
+.custom-text-field .disabled-label-adornment {
+    position: absolute;
+    right: 12px;
+    color: #4E4E4E;
+}
+
+.custom-text-field .error-adornment {
+    color: #E31227;
+}
+
+.custom-text-field .disabled-label-adornment {
+    color: #DCDCDC;
+}
+
+/* Цвета для label */
+.custom-text-field .label,
+.custom-text-field .label-error,
+.custom-text-field .label-disabled {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    line-height: 16px;
+    text-align: left;
+    color: #4E4E4E;
+    padding: 0px 8px;
+}
+
+.custom-text-field .label-error {
+    color: #E31227;
+}
+
+.custom-text-field .label-disabled {
+    color: #DCDCDC;
+}
+
+
+
